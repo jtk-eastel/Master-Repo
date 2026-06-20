@@ -11,7 +11,7 @@ window.SITE_CONFIG = {
   mentorId: "E-0064823",
 
   // WhatsApp CTA
-  whatsappNumber: "601127898797",
+  whatsappNumber: "601175947174",
   whatsappText: "NakTahuCaraMula",
   ctaText: "Nak Tahu Cara Mula",
 
@@ -21,7 +21,7 @@ window.SITE_CONFIG = {
   ogImageSrc: "assets/brand/og-izzue.png",
 
   // Copy yang boleh dipersonalize
-  homeHeroLead: "Eastel ialah produk telco harian yang mudah difahami: SIM, data, reload dan app. Izzue bantu korang mula dengan cara yang lebih tersusun — guna dulu, faham produk, kemudian bina pendapatan berulang.",
-  footerBrandCopy: "Prepaid harian. Data besar. Sistem app. Peluang cipta pendapatan tanpa had.",
+  homeHeroLead: "Eastel ialah produk telco harian yang mudah difahami: SIM, data, reload dan app. Izzue bantu korang mula dengan cara yang lebih tersusun — guna dulu, faham produk, kemudian bina jaringan pengguna.",
+  footerBrandCopy: "Prepaid harian. Data besar. Sistem app. Peluang bina jaringan pengguna dengan lebih tersusun.",
   copyrightName: "Eastel X Izzue"
 };
