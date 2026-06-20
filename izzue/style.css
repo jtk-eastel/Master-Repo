@@ -1894,3 +1894,75 @@ select,input,.slider-number{
 @media(max-width:480px){
   .brand img{width:146px!important;}
 }
+
+
+/* =============================================================
+   V3 PELAN PAGE NAV PILLS - BRIGHT PREMIUM FIX
+   ============================================================= */
+.nav-strip-section{
+  background:
+    radial-gradient(circle at 50% 0%,rgba(46,197,255,.10),transparent 25rem),
+    linear-gradient(180deg,#f8fbff 0%,#ffffff 100%)!important;
+  padding:28px 0 34px!important;
+}
+.chapter-pills,
+.chapter-pills-clean{
+  display:flex!important;
+  gap:12px!important;
+  justify-content:center!important;
+  align-items:center!important;
+  flex-wrap:wrap!important;
+  padding:12px!important;
+  margin:0 auto!important;
+  width:fit-content!important;
+  max-width:100%!important;
+  border:1px solid rgba(15,23,42,.08)!important;
+  border-radius:999px!important;
+  background:rgba(255,255,255,.74)!important;
+  box-shadow:
+    0 16px 38px rgba(15,23,42,.07),
+    inset 0 1px 0 rgba(255,255,255,.9)!important;
+  backdrop-filter:blur(14px)!important;
+}
+.chapter-pills a,
+.chapter-pills-clean a{
+  color:#1e293b!important;
+  background:linear-gradient(180deg,#ffffff 0%,#f7faff 100%)!important;
+  border:1px solid rgba(15,23,42,.09)!important;
+  box-shadow:0 8px 18px rgba(15,23,42,.045)!important;
+  font-weight:900!important;
+  letter-spacing:.01em!important;
+  text-shadow:none!important;
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease, color .18s ease!important;
+}
+.chapter-pills a:hover,
+.chapter-pills-clean a:hover{
+  color:#5b21b6!important;
+  border-color:rgba(123,97,255,.24)!important;
+  box-shadow:0 12px 26px rgba(123,97,255,.12)!important;
+  transform:translateY(-1px)!important;
+}
+.chapter-pills a.active,
+.chapter-pills-clean a.active,
+.chapter-pills a[aria-current="page"],
+.chapter-pills-clean a[aria-current="page"]{
+  color:#ffffff!important;
+  background:linear-gradient(90deg,#2ec5ff 0%,#4b8dff 32%,#7b61ff 62%,#9333ea 100%)!important;
+  border-color:transparent!important;
+  box-shadow:0 14px 30px rgba(123,97,255,.20)!important;
+}
+@media(max-width:760px){
+  .chapter-pills,
+  .chapter-pills-clean{
+    justify-content:flex-start!important;
+    flex-wrap:nowrap!important;
+    overflow-x:auto!important;
+    width:100%!important;
+    border-radius:24px!important;
+    padding:10px!important;
+  }
+  .chapter-pills a,
+  .chapter-pills-clean a{
+    white-space:nowrap!important;
+  }
+}
